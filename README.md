@@ -1,2 +1,13 @@
-# Where_is_Jack_Stauber-
-This is the repository for my website where i am going to make about where famous music artist is and what happend to him
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Where is Jack Stauber?</title>
+</head>
+<body>
+  <header>
+    <h1></h1>
+  </header>
+</body>
+</html>

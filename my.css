@@ -1,8 +1,4 @@
-.right-box {
-    float: right;
-    font-size: 12px;
-}
-.middle-box {
-     text-align: center;
-    font-size: 25px;
+.right-box{
+    float:right
+    font-size="12px"
 }

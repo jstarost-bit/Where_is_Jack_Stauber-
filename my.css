@@ -1,8 +1,24 @@
 .right-box {
     float: right;
-    font-size: 12px;
+    font-size: 23px;
+    right: 0;
 }
-.middle-box {
+.title {
      text-align: center;
     font-size: 25px;
+    font-family: arial;
+    font-style: bold;
 }
+body {
+    background-image: url(images/bg1.png);
+    background-size: 1400px 1000px;
+    background-position: center;
+    background-attachment: fixed;
+}
+.left-box {
+    font-size: 25px;
+}
+h2 {
+    font-size: 40px;
+}
+

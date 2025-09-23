@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="my.css">
+	<script src="my.js"></script>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<title>Where is Jack Stauber?</title>
+</head>
+<body>
+    <div class="title2"> <h1> Best Songs per Album </h1> </div>
+   <div class="table"> <table>
+  <tr>
+    <th>Pop Food</th>
+    <th>Hilo</th>
+    <th>Shop</th>
+  </tr>
+  <tr>
+    <td>Ohklahoma   </td> 
+    <td>  Dead Weight</td>
+    <td>Coffee  </td>
+  </tr>
+  <tr>
+    <td>Buttercup</td>
+    <td>Small World</td>
+    <td>  Milk</td>
+  </tr>
+</table> </div>
+   <div class="links"> <a href="index.html"> go back </a> </div>
+    <meta charset="UTF-8">
+  <title>Favorite Song Form</title>
+</head>
+<body>
+  <div class="formtitle"> <h1>What’s Your Favorite Song?</h1>
+  <form id="songForm">
+    <label for="favSong">Favorite Song:</label>
+    <input type="text" id="favSong" name="favSong" required>
+    <button type="submit">Submit</button>
+  </form> </div>
+
+  <div id="result"></div>
+
+  <script>
+    document.getElementById("songForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      const song = document.getElementById("favSong").value;
+      document.getElementById("result").textContent = "Your favorite song is: " + song;
+    });
+  </script>
+</body>
+</html>
